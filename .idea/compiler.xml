@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="elastic_search_test" />
+        <module name="message_queue" />
+        <module name="message_queue_test" />
+        <module name="mycat_test" />
+        <module name="nginx_test" />
+        <module name="zookeeper_test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="elastic_search_test" target="1.5" />
+      <module name="message_queue" target="1.5" />
+      <module name="message_queue_test" target="1.5" />
+      <module name="mycat_test" target="1.5" />
+      <module name="nginx_test" target="1.5" />
+      <module name="zookeeper_test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
